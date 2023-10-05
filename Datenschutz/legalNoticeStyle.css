@@ -1,0 +1,46 @@
+.containerWithMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 350px;
+    width: fit-content;
+    padding-right: 100px;
+    height: calc(100vh - 180px);
+    overflow-y: scroll;
+}
+
+.containerWithoutMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 350px;
+    width: fit-content;
+    padding-right: 100px;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+}
+
+#backBtn {
+    position: absolute;
+    right: 50px;
+    top: 160px;
+    padding: 8px;
+}
+
+#backBtn:hover {
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 8px;
+ }
+
+ @media (max-width: 1000px) {
+    .containerWithMenu, .containerWithoutMenu {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    #backBtn {
+        right: 15px;
+        top: 120px;
+    }
+ }

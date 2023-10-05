@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../index/mini_backend.js"></script>
+    <script src="../index/login.js"></script>
+    <script src="../templates/templates.js"></script>
+    <script src="../globalScript.js"></script>
+    <script src="../globalVar.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo-mobile" src="../img/Capa-dark.png">
+        <p class="d-none-mobile">Kanban Project Management Tool</p>
+    </div>
+
+
+    </div>
+    <div class="sideMenu">
+        <a class="legal-notice d-none-mobile" id="side-menu-link4" href="../Datenschutz/legalNoticeNoLogin.html">
+            <div class="menu-links">
+                <img class="side-menu-img" src="../img/legal-notice.png">
+                <div>Legal notice</div>
+            </div>
+        </a>
+        <a class="privacy-policy d-none-mobile" id="side-menu-link5" href="../Datenschutz/policyPrivacyNoLogin.html">
+            <div class="menu-links">
+                <img class="side-menu-img" src="../img/legal-notice.png">
+                <div>Privacy Policy</div>
+            </div>
+        </a>
+
+        <img class="d-none-mobile" src="../img/Capa 1.svg">
+
+
+    </div>
+
+    <!-- mobile-dropdown -->
+    <div id="mobileDropDown" class="d-none">
+        <a href="../Datenschutz/help.html">Help</a>
+        <a href="../Datenschutz/datenschutz.html">Legal notice</a>
+        <a onclick="logout()">Logout</a>
+    </div>
+
+</body>
+
+</html>

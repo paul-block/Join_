@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN Login</title>
+    <link rel="icon" type="image/x-icon" href="../img/join_logo.svg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="indexMedia.css">
+    <link rel="stylesheet" href="../globalStyle.css">
+    <script src="./mini_backend.js"></script>
+    <script src="../globalScript.js"></script>
+    <script src="./data.js"></script>
+    <script src="template.js"></script>
+    <script src="../globalVar.js"></script>
+</head>
+
+<body onload="init()">
+
+    <img id="fixedLogo" src="../img/join_logo.svg" alt="Logo" class="d-none">
+    <img id="logo" src="../img/join_logo.svg" alt="Logo">
+    <div id="container" class="d-none">
+        <div id="signUpContainer">
+            <span>Not a Join user?</span>
+            <button onclick="renderSignUp()" class="buttonGlobal1">Sign up</button>
+        </div>
+
+        <section id="loginSection">
+            <div id="headline">
+                <h1>Log in</h1>
+                <img src="../img/line.png" alt="blue-line">
+            </div>
+
+            <form>
+                <input required id="email" type="email" placeholder="Email" />
+                <input required id="password" type="password" placeholder="Password" />
+                <div id="wrongLogin" class="d-none">Wrong password Ups! Try again.</div>
+
+                <div class="checkmarkContainer">
+                    <input type="checkbox" id="rememberMe" />
+                    <span>Remember me</span>
+                </div>
+            </form>
+
+            <div id="loginBtnContainer">
+                <button id="loginBtn" class="buttonGlobal1" onclick="login()">Log in</button>
+                <button id="guestLoginBtn" class="buttonGlobal2" onclick="guestLogin()">Guest Log in</button>
+            </div>
+        </section>
+        <div id="msgBox" class="d-none">
+        </div>
+
+        <section id="legal">
+            <a href="../Datenschutz/policyPrivacyNoLogin.html">Privacy Policy</a>
+            <a href="../Datenschutz/legalNoticeNoLogin.html">Legal notice</a>
+        </section>
+
+    </div>
+
+    <div id="mobileLogoContainer" class="d-none">
+        <img id="mobileLogo" src="../img/mobileLogo.png" alt="">
+    </div>
+
+</body>
+
+</html>

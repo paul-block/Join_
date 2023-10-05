@@ -1,0 +1,64 @@
+.contactRightSide {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.firstTextRightSide {
+    font-size: 51px;
+    font-weight: 700;
+}
+
+.newContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    background: #2A3647;
+    border-radius: 50%;
+    right: 40%;
+    bottom: 10%;
+    z-index: 999;
+}
+
+.iconAdd {
+    height: 32px;
+}
+
+.newContact:hover {
+    background-color: #29ABE2;
+    cursor: pointer;
+}
+
+.containerRightSide {
+    display: flex;
+    align-items: center;
+}
+
+.texttemplatesKanban {
+    position: absolute;
+    top: 0%;
+    font-size: 60%;
+    left: 0%;
+    display: none;
+}
+
+.textRightSide {
+    font-weight: 400;
+    font-size: 20px;
+    color: #2A3647;
+}
+
+.textNewContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balken {
+    height: 59px;
+    border: 1.5px solid #29ABE2;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+

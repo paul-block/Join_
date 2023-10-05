@@ -1,0 +1,203 @@
+@media (max-width: 750px) {
+
+    #logo {
+        height: 75px;
+        width: 100px;
+    }
+
+    @keyframes LogoDesktopAnimation {
+        to {
+            top: 20px;
+            left: 10px;
+            transform: translate(0, 0); 
+        }
+    }
+
+    #loginSection {
+        padding: 48px 35px;
+    }
+
+    #signUpContainer {
+        top: 30px;
+        right: 50px;
+    }
+
+    #signUpContainer span {
+        font-size: 16px;
+    }
+
+    #signUpSection {
+        padding: 48px 35px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #logo, #fixedLogo {
+        height: 80px;
+        width: 100px;
+        left: 20px;
+    }
+
+    @keyframes LogoMobileAnimation {
+        0% {
+            opacity: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+        25% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+        100% {
+            top: 30px;
+            left: 30px;
+            transform: translate(0, 0);
+        }
+    }
+
+    #signUpContainer {
+        top: unset;
+        bottom: 70px;
+        right: unset;
+    }
+
+    #signUpContainer a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    #loginSection {
+        width: 80%;
+    }
+
+    #loginSection h1 {
+        font-size: 48px;
+    }
+
+    #loginBtnContainer {
+        flex-direction: column;
+    }
+
+    #loginBtnContainer button {
+        font-size: 18px;
+    }
+
+    #loginSection form {
+        width: 100%;
+    }
+
+    #loginSection form input {
+        width: unset;
+    }
+
+    #legal {
+        bottom: 20px;
+    }
+
+    #signUpSection {
+        width: 80%;
+    }
+
+    #headline h1 {
+        font-size: 48px;
+    }
+
+    #backBtn {
+        left: 40px;
+    }
+
+    #backBtn img {
+        height: 18px;
+        width: 18px;
+    }
+
+    #signUpSection form {
+        width: 80%;
+    }
+
+    #signUpSection form input {
+        width: 100%;
+    }
+}
+
+@media (max-height: 690px) {
+
+    #logo {
+        height: 60px;
+        width: 80px;
+    }
+ 
+    #loginSection {
+        gap: 20px;
+        padding: 25px 35px;
+    }
+
+    #loginSection form {
+        gap: 20px;
+    }
+
+    #loginBtnContainer {
+        gap: 10px;
+    }
+
+    #signUpContainer {
+        bottom: 50px;
+    }
+
+    #legal {
+        bottom: 10px;
+    }
+
+    #signUpSection {
+        padding: 25px 35px;
+        gap: 20px;
+    }
+
+    #backBtn {
+        top: 50px;
+    }
+
+    #signUpSection form {
+        gap: 15px;
+    }
+}
+
+@media (max-height: 800px) and (min-width: 500px) {
+
+    #logo, #fixedLogo {
+        height: 80px;
+        width: 100px;
+    }
+            
+    #loginSection h1 {
+        font-size: 48px;
+    }
+
+    #signUpContainer button{
+        padding: 10px 20px;
+    }
+
+    #loginSection {
+        padding: 30px 115px;
+    }
+
+    #legal {
+        bottom: 2rem;
+    }
+
+    #signUpSection {
+        padding: 20px 85px;
+        gap: 24px;
+    }
+
+    #signUpSection h1 {
+        font-size: 48px;
+    }
+
+    #backBtn {
+        top: 45px;
+    }
+}
